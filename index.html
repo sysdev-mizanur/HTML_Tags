@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, inital-scale=1.0">
+<title>Home</title>
+</head>
+
+<body>
+<p>The content of the document is sample execution of HTML tags.</p>
+<h1>Master Heading</h1>
+<p>This setting is used for the topmost title of a page and this setting may be used in a page only once.</p>
+<br>
+<h2>Secondary Heading</h2>
+<p>This setting and the following settings down to heading 06 gets gradually smaller and each one of these can be used several times in a single page.</p>
+<br>
+
+<h3>Tertiary Heading</h3>
+<h4>Regular Heading</h4>
+<h5>Note Heading</h5>
+<h6>Foot-note-size Heading</h6>
+<p>This one above is the smallest type setting for any heading element.</p>
+
+<br>
+<p>This page will demonstrate how to apply a number of HTML tags. This is the first part of a series of such.</p>
+<br>
+<h2>The a element</h2>
+
+<p>This a element is used to denote or point to an external web site or page.</p>
+<br>
+<a href="https://www.wikipedia.org/">Visit Wikipedia.org!</a>
+<br>
+<h2>The abbr element</h2>
+<p>This abbr element is used to illustrate or extrapolate any abbreviated word used on the page when a reader hovers over the abbreviated form.</p>
+<br>
+<p>The <abbr title="British Broadcasting Corporation">BBC</abbr> was founded in 18 October, 1922.</p>
+<br>
+<h2>The address element</h2>
+<address>
+Written by <a href="mailto:sysdev.mizanur@gmail.com">Mizanur Rahman</a>.<br>
+Visit us at:<br>
+facebook.com/sysdev.mizanur/<br>
+Dhaka<br>
+Bangladesh
+</address>
+<br>
+
+<h2>The map and area elements</h2>
+
+<p>Details and functionality of this part will be demonstrated later</p>
+
+<img src="linking_image.webp" alt="linking" width="300">
+<br>
+
+<br>
+
+<h2>The article element</h2>
+<article>
+  <h3>Padma River</h3>
+  <p>The Padma (Bengali: পদ্মা Pôdma) is a major river in Bangladesh. It is the main distributary of the Ganges, flowing generally southeast for 356 kilometres (221 mi) to its confluence with the Meghna River near the Bay of Bengal. The city of Rajshahi is situated on the banks of the river.</p>
+</article>
+<article>
+  <h3>Meghna River</h3>
+  <p>The Meghna River (Bengali: মেঘনা নদী) is one of the major rivers in Bangladesh, one of the three that form the Ganges Delta, the largest delta on earth, which fans out to the Bay of Bengal. A part of the Surma-Meghna River System, Meghna is formed inside Bangladesh in Kishoreganj District above the town of Bhairab Bazar by the joining of the Surma and the Kushiyara, both of which originate in the hilly regions of eastern India as the Barak River.</p>
+</article>
+<article>
+  <h3>Jamuna River</h3>
+  <p>The Jamuna River (Bengali: যমুনা Jomuna) is one of the three main rivers of Bangladesh. It is the lower stream of the Brahmaputra River, which originates in Tibet as Yarlung Tsangpo, before flowing into India and then southwest into Bangladesh. The Jamuna flows south and joins the Padma River (Pôdda), near Goalundo Ghat, before meeting the Meghna River near Chandpur. It then flows into the Bay of Bengal as the Meghna River.</p>
+</article>
+<!-- check and submit from this "comment" section. :D -->
+<br>
+<h2>The aside element</h2>
+<p>I have enrolled in a Full Stack Web Development course.</p>
+<aside>
+<h4>Full Stack Web Development</h4>
+<p>Full Stack Web Development is a computer related course where one can learn how to design and develop a standard website or webpage. This course covers most of the relevant basics like HTML, CSS, JS, Bootstrap, Jquery, PHP, Wordpress, MySQL etc.</p>
+</aside>
+<br>
+<h2>The audio element</h2>
+<p> The base tag specifies the base URL and/or target for all relative URLs in a document and since there can only be one single base element in a document, and it must be inside the head element, this functionality will be demonstrated by creating another page where all url links will point to one target. Doing it here will wreck existing links on this page.</p>
+<br>
+<audio controls>
+    <source src="listen_to_it.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+<br>
+<h2>HTML b Tag</h2>
+<p> This tag makes some text bold (without marking it as important). </p>
+<p>Example: This is normal text - and <b>This is bold text</b>.</p>
+<br>
+<h2>The bdi element</h2>
+<p>BDI stands for Bi-Directional Isolation. The bdi tag isolates a part of text that might be formatted in a different direction from other text outside it. In the example below, usernames are shown along with the number of points in a contest. If the bdi element is not supported in the browser, the username of the Arabic user would confuse the text (the bidirectional algorithm would put the colon and the number "90" next to the word "User" rather than next to the word "points").</p>
+User <bdi>hrefs</bdi>: 60 points
+User <bdi>jdoe</bdi>: 80 points
+User <bdi>إيان</bdi>: 90 points
+
+<br>
+
+<h2>The bdo element</h2>
+<p>BDO stands for Bi-Directional Override. The bdo tag is used to override the current text direction.</p>
+
+<p>This paragraph will go left-to-right.</p>  
+<p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p>  
+
+<br>
+
+<h2>The blockquote element</h2>
+<p>The blockquote tag specifies a section that is quoted from another source.</p>
+
+<p>Here is a quote from Wikipedia's website:</p>
+<blockquote cite="https://en.wikipedia.org/wiki/Jamuna_River_(Bangladesh)">
+The Jamuna River (Bengali: যমুনা Jomuna) is one of the three main rivers of Bangladesh. It is the lower stream of the Brahmaputra River, which originates in Tibet as Yarlung Tsangpo, before flowing into India and then southwest into Bangladesh. The Jamuna flows south and joins the Padma River (Pôdda), near Goalundo Ghat, before meeting the Meghna River near Chandpur. It then flows into the Bay of Bengal as the Meghna River.
+</blockquote>  
+<br>
+<h2>The body element</h2>
+<p>The body tag defines the document's body. The body element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. There can only be one body element in an HTML document. </p>
+<br>
+<h2>The br tag</h2>
+<p>The br tag inserts a single line break. The br tag is an empty tag which means that it has no end tag. </p>
+<br>
+<br>
+<br>
+<p>Can you see the three line breaks?</p>
+<br>
+<h2>The button Element</h2>
+<button type="button" onclick="alert('Hello world!')">Click Me!</button>
+<p>The button tag defines a clickable button.
+Inside a button element you can put text (and tags like i, b, strong, br, img etc.). Always specify the type attribute for a button element, to tell browsers what type of button it is.</p>
+<br>
+<h2>The canvas element</h2>
+<p> The canvas tag is used to draw graphics, on the fly, via scripting (usually JavaScript).
+The canvas tag is transparent, and is only a container for graphics, you must use a script to actually draw the graphics, on the fly, via scripting (usually JavaScript). Any text inside the canvas element will be displayed in browsers with JavaScript disabled and in browsers that do not support canvas tag. </p>
+<canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(0, 0, 80, 100);
+</script>
+<br>
+<h2>HTML caption Tag</h2>
+<p> The caption tag defines a table caption. This caption tag must be inserted immediately after the table tag. By default, a table caption will be center-aligned above a table. </p>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+<table>
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$50</td>
+  </tr>
+</table>
+<br>
+<h2>HTML cite Tag</h2>
+
+<p> The cite tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.). A person's name is not the title of a work. The text in the cite element usually renders in italic. </p>
+
+
+
+<img src="linking_image.webp" alt="linking" width="300" height="200">
+<p><cite>The Developer</cite> by Unknown.</p>
+
+<br>
+
+
+<h2>HTML code Tag</h2>
+
+<p>The HTML <code>button</code> tag defines a clickable button.</p>
+
+<p>The BDO element code <code>bdo dir="rtl">ABCDE bdo </code> will display output: <bdo dir="rtl">ABCDE</bdo>.</p>
+
+
+<br>
+
+
+<h2>HTML colgroup Tag</h2>
+
+<p>The <code>colgroup</code> tag specifies a group of one or more columns in a table for formatting. This <code>colgroup</code> tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row. The <code>colgroup</code> tag needs to be a child of a <code>table</code> element, after any <code>caption</code> elements and before any <code>thead</code>, <code>tbody</code>, <code>tfoot</code>, and <code>tr</code> elements.
+
+</p>
+
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+<table>
+  <colgroup>
+    <col span="2" style="background-color:cornflowerblue;">
+    <col style="background-color:lightseagreen;">
+  </colgroup>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+  <tr>
+    <td>5869207</td>
+    <td>My first CSS</td>
+    <td>$49</td>
+  </tr>
+</table>
+
+<br>
+
+
+<h2>HTML col Tag</h2>
+
+<p>The <code>col</code> tag specifies column properties for each column within a <code>colgroup</code> element. The <code>col</code> tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.</p>
+
+<br>
+
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+
+
+
+<table>
+  <colgroup>
+    <col span="3" style="background-color:skyblue;">
+    <col style="background-color:cornflowerblue;">
+  </colgroup>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>987654123</td>
+    <td>Lets Try HTML</td>
+    <td>$85</td>
+  </tr>
+  
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+  <tr>
+    <td>5869207</td>
+    <td>My first CSS</td>
+    <td>$49</td>
+  </tr>
+</table>
+
+<br>
+
+<h2>HTML data Tag</h2>
+
+<p>The <code>data</code> tag is used to add a machine-readable translation of a given content. This element provides both a machine-readable value for data processors, and a human-readable value for rendering in a browser. The following example displays product names but also associates each name with a product number:</p>
+
+<ul>
+  <li><data value="21053">Cherry Tomato</data></li>
+  <li><data value="21054">Beef Tomato</data></li>
+  <li><data value="21055">Snack Tomato</data></li>
+</ul>
+<br>
+<h2>HTML datalist Tag</h2>
+
+<p>The <code>datalist</code> tag specifies a list of pre-defined options for an <code>input <input></code> element. The <code>datalist</code> tag is used to provide an "autocomplete" feature for <code>input</code> elements. Users will see a drop-down list of pre-defined options as they input data.
+
+The <code>datalist</code> element's id attribute must be equal to the <code>input</code> element's list attribute to bind them together.</p>
+
+
+<br>
+
+<h2>The datalist element</h2>
+
+
+  <label for="colour">Choose your favourite colour from the list:</label>
+  <input list="colours" name="colour" id="colour">
+  <datalist id="colours">
+    <option value="Blue">
+    <option value="Sky Blue">
+    <option value="Navy Blue">
+    <option value="Metallic Blue">
+    <option value="Violet">
+  </datalist>
+  <input type="submit">
+
+
+<p><strong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+<br>
+<h2>The dl, dd, and dt elements</h2>
+<p>These three elements are used to create a description list:</p>
+
+<dl>
+  <dt>Tea</dt>
+  <dd>A drink sourced from tea plants.</dd>
+  <dt>Honey</dt>
+  <dd>A drink sourced from honey bees.</dd>
+</dl>
+<br>
+<!-- comment-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
